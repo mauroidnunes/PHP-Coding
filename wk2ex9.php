@@ -5,8 +5,7 @@
   $topmodules[30] = 'OOAD';
   $topmodules[40] = 'Software Engineering';
 
-  // foreach loop here…
-  {
-    echo 'Index is ' . $index . ' and value is ' . $value . '<br/>';
-  }
+  foreach($topmodules as $index=>$value) {
+    echo "Index is $index and value is $value <br/>";
+}
 ?>

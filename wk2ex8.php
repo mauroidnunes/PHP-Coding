@@ -1,14 +1,14 @@
-<?php
-  $topModules[0] = 'Internet Systems Development';
-  $topModules[1] = 'Programming 1';
-  $topModules[2] = 'Programming 2';
-  $topModules[3] = 'OOAD';
-  $topModules[4] = 'Software Engineering';
-  $topModules[5] = 'Database';
-  $topModules[6] = 'Business Modelling';
+<?php // added php tag
+  $topModules[0] = "Internet Systems Development";
+  $topModules[1] = "Programming 1";
+  $topModules[2] = "Programming 2";
+  $topModules[3] = "OOAD";
+  $topModules[4] = "Software Engineering";
+  $topModules[5] = "Database Modelling"; // added item to array
+  $topModules[6] = "Programming Concepts"; // added item to array
 
-  for($count = 0; $count <=6; $count++);
+  for($count = 0;$count < 7;$count++) // formatted semicolons, appended count to 7
   {
-    echo 'My favourite modules are ' . $topModules[0] . ', ' . $topModules[1] . ', ' . $topModules[2] . ', ' . $topModules[3] . ', ' . $topModules[4] . ', ' . $topModules[5] . ', ' . $topModules[6] . '.<br/>';
+    echo "$count module is $topModules[$count] <br/>";
   }	
 ?>
