@@ -1,7 +1,7 @@
 <?php
   header("Content-type: image/jpeg");
 
-  $conn = mysqli_connect("localhost", "root","", "db1_hsadiq22");
+  $conn = mysqli_connect("localhost", "root","", "db1_mnunes18");
 
   $sql = "SELECT image FROM monster WHERE id='" . $_GET["id"] ."';";
 	

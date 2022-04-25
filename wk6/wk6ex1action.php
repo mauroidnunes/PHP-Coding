@@ -3,7 +3,7 @@
 	$sql = $sql . " values ('$_POST[txtName]','$_POST[txtEmail]','$_POST[txtPhoneNumber]')";
 
 	// Connect to server and select database
-    $con = mysqli_connect("localhost", "root", "", "db1_mnunes18");
+    $con = mysqli_connect("localhost", "root", "", "mnunes18");
 
 	// Execute sql statement	
     mysqli_query($con, $sql);	
